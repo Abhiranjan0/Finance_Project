@@ -1,0 +1,10 @@
+The expense ratio represents the annual fee that mutual funds charge for managing investor money.
+It includes management fees, administrative costs, audit fees, and distribution expenses.
+A lower expense ratio generally improves long-term returns due to reduced cost drag.
+Actively managed funds often have higher expense ratios than passive index funds.
+Regulators like SEBI set limits on maximum allowable expense ratios to protect investors.
+Expense ratio is deducted directly from the fund’s NAV on a daily basis.
+Even small differences in expense ratio can significantly impact returns over long periods.
+Investors should compare expense ratios when selecting similar funds in the same category.
+Direct plans offer lower expense ratios than regular plans due to no distributor commissions.
+Understanding expense ratio is essential for cost-efficient investing.

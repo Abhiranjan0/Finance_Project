@@ -1,0 +1,10 @@
+NAV stands for Net Asset Value, representing the per-unit price of a mutual fund scheme.
+It is computed as (Total Assets − Liabilities) divided by the number of outstanding units.
+NAV is updated daily based on the closing market value of the fund's holdings.
+A higher or lower NAV does not indicate whether a fund is good or bad—performance matters.
+NAV is the price at which investors buy or redeem mutual fund units.
+In open-ended funds, NAV changes daily with market fluctuations.
+For ETFs, NAV helps determine fair value compared to market traded price.
+Investors should focus on long-term returns rather than short-term NAV movements.
+NAV-based comparison is useful for understanding growth from the time of investment.
+Understanding NAV is key to learning how mutual funds are valued and transacted.

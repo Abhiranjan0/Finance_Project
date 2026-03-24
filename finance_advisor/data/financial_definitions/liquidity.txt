@@ -1,0 +1,10 @@
+Liquidity measures how quickly and easily an asset can be converted into cash without losing value.
+Highly liquid assets include savings accounts, liquid funds, and treasury bills.
+Illiquid assets include real estate, long-term bonds, and fixed deposits with lock-ins.
+Liquidity is essential for handling emergencies and short-term financial needs.
+Investors should maintain an emergency fund in highly liquid instruments.
+Liquidity risk arises when investors cannot exit or redeem investments when needed.
+Funds with exit loads or lock-ins have lower liquidity.
+Liquidity also affects pricing — illiquid assets may sell at a discount during stress.
+Balancing liquid and illiquid assets is crucial for financial stability.
+Proper liquidity planning prevents forced selling during downturns.

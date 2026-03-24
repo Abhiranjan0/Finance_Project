@@ -1,0 +1,92 @@
+{
+  "profile": "Aggressive",
+  "description": "A high-growth portfolio focused on long-term wealth creation with high equity allocation. Suited for young or high-risk investors.",
+
+  "suitable_for": [
+    "Young investors in their 20s or early 30s",
+    "High-risk investors seeking long-term wealth",
+    "Individuals with no immediate liquidity needs",
+    "Investors targeting financial independence"
+  ],
+
+  "goals_supported": [
+    "Retirement (10+ years)",
+    "Long-term wealth accumulation",
+    "Child's higher education (10+ years)",
+    "Achieving FIRE (Financial Independence Retire Early)"
+  ],
+
+  "time_horizon_years": "7+ years",
+  "risk_level": "High",
+  "volatility_expectation": "High",
+  "max_expected_drawdown": "20% to 35%",
+  "expected_return_range": "12% to 16% annually",
+
+  "allocation": {
+    "equity": 75,
+    "debt": 10,
+    "gold": 10,
+    "hybrid": 3,
+    "cash_liquid": 2
+  },
+
+  "equity_breakdown": {
+    "large_cap": 30,
+    "mid_cap": 23,
+    "small_cap": 17,
+    "international_equity": 5
+  },
+
+  "debt_breakdown": {
+    "corporate_bond": 5,
+    "gilt_10yr": 5
+  },
+
+  "gold_breakdown": {
+    "gold_etf": 6,
+    "sovereign_gold_bonds": 4
+  },
+
+  "hybrid_breakdown": {
+    "aggressive_hybrid": 3
+  },
+
+  "recommended_sip_range": "₹8,000 – ₹75,000 per month",
+  "recommended_lumpsum_use": "Deploy via 6–12 month STP to avoid timing risks.",
+
+  "fund_examples_generic": {
+    "equity": [
+      "Large-cap index",
+      "Mid-cap fund",
+      "Small-cap fund",
+      "International equity index fund"
+    ],
+    "debt": [
+      "Medium-duration debt fund",
+      "Corporate bond fund"
+    ],
+    "gold": [
+      "Gold ETF",
+      "Sovereign Gold Bond"
+    ],
+    "hybrid": [
+      "Aggressive hybrid fund"
+    ]
+  },
+
+  "historical_behaviour": [
+    "High volatility during market cycles.",
+    "Strong long-term compounding when held for 7–10+ years.",
+    "Small and mid caps contribute disproportionately to returns.",
+    "Gold allocation provides crash protection during major sell-offs."
+  ],
+
+  "rebalancing_strategy": "Rebalance every 9–12 months to prevent equity rising above 80–85% in bull markets.",
+
+  "rationale": [
+    "Dominant equity exposure maximizes long-term compounding.",
+    "Mid and small caps deliver strong growth over long horizons.",
+    "Gold and minimal debt help cushion severe downturns.",
+    "Ideal for investors with high risk tolerance and long investment horizons."
+  ]
+}

@@ -1,0 +1,35 @@
+SEBI has defined a Risk-O-Meter with 6 mandatory risk levels for all mutual funds. Each mutual fund must display its risk level monthly.
+
+1) Low Risk:
+Funds with minimal volatility such as Overnight Funds and Liquid Funds. Suitable for extremely conservative investors, short-term parking, and emergency funds. Risk arises mainly from interest rate fluctuations.
+
+2) Low to Moderate Risk:
+Funds with slightly higher maturity or limited credit exposure. Includes Ultra Short Duration, Short Duration, and Conservative Hybrid Funds. Suitable for investors seeking stability with some return enhancement.
+
+3) Moderate Risk:
+Includes Corporate Bond Funds, Banking & PSU Funds, Medium Duration Debt Funds, and Balanced Hybrid Funds. Suitable for 2–4 year horizons. Moderate interest rate and credit risk.
+
+4) Moderately High Risk:
+Includes Flexi Cap Funds, Multi Cap Funds, Balanced Advantage Funds, and Multi Asset Funds. Suitable for medium-term wealth building with controlled volatility.
+
+5) High Risk:
+Includes Large Cap Equity Funds, Mid Cap Funds, Aggressive Hybrid Funds, ELSS, Index Funds. Higher volatility but strong long-term returns. Aimed at long-term growth-oriented investors.
+
+6) Very High Risk:
+Includes Small Cap Funds, Sectoral/Thematic Funds, International Emerging Market Funds, and Credit Risk Debt Funds. Suitable only for experienced investors seeking high returns and able to tolerate large drawdowns.
+
+Additional Risk Considerations:
+
+• Market Risk – Driven by stock market volatility.  
+• Credit Risk – Risk of bond issuer default (high in credit-risk funds).  
+• Duration Risk – Sensitivity of debt funds to interest rate movements (high in gilt/long duration funds).  
+• Liquidity Risk – Difficulty selling securities during stressed markets.  
+• Concentration Risk – Thematic funds carry this due to limited sector exposure.  
+• Currency Risk – Present in international FoFs/ETFs.  
+
+Investors must match fund risk levels with:
+• Age  
+• Goals  
+• Time horizon  
+• Risk appetite  
+• Asset allocation strategy  

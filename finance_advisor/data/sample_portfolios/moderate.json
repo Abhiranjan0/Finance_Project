@@ -1,0 +1,92 @@
+{
+  "profile": "Moderate",
+  "description": "A balanced portfolio offering a mix of growth and stability. Ideal for medium risk investors and multi-year goals.",
+
+  "suitable_for": [
+    "Investors with 4–7 year horizons",
+    "Those balancing wealth creation with capital safety",
+    "Individuals wanting diversification in a single strategy",
+    "Working professionals with stable income"
+  ],
+
+  "goals_supported": [
+    "Child’s education goal (5–7 years)",
+    "Car purchase",
+    "Medium-term wealth creation",
+    "Balanced retirement planning"
+  ],
+
+  "time_horizon_years": "4 to 7 years",
+  "risk_level": "Medium",
+  "volatility_expectation": "Moderate",
+  "max_expected_drawdown": "10% to 15%",
+  "expected_return_range": "9% to 12% annually",
+
+  "allocation": {
+    "equity": 50,
+    "debt": 30,
+    "gold": 10,
+    "hybrid": 5,
+    "cash_liquid": 5
+  },
+
+  "equity_breakdown": {
+    "large_cap": 25,
+    "mid_cap": 12,
+    "small_cap": 8,
+    "flexi_cap": 5
+  },
+
+  "debt_breakdown": {
+    "corporate_bond": 10,
+    "short_duration": 10,
+    "gilt_funds": 5,
+    "banking_psu_debt": 5
+  },
+
+  "gold_breakdown": {
+    "gold_etf": 10
+  },
+
+  "hybrid_breakdown": {
+    "balanced_hybrid": 5
+  },
+
+  "recommended_sip_range": "₹5,000 – ₹40,000 per month",
+  "recommended_lumpsum_use": "Deploy in 3–6 tranches via STP due to 50% equity exposure.",
+
+  "fund_examples_generic": {
+    "equity": [
+      "Large-cap index fund",
+      "Flexi-cap fund",
+      "Mid-cap fund"
+    ],
+    "debt": [
+      "Corporate bond fund",
+      "Short-duration debt fund",
+      "Gilt fund 10-year"
+    ],
+    "gold": [
+      "Gold ETF"
+    ],
+    "hybrid": [
+      "Balanced Hybrid Fund"
+    ]
+  },
+
+  "historical_behaviour": [
+    "Moderate drawdowns during market corrections.",
+    "Stable recovery speed due to diversification.",
+    "Large-caps provide backbone stability while mid/small caps deliver growth.",
+    "Debt helps maintain portfolio stability during volatility spikes."
+  ],
+
+  "rebalancing_strategy": "Rebalance annually or when equity exceeds 55% due to bull markets.",
+
+  "rationale": [
+    "Balanced exposure ensures smoother returns than pure equity portfolios.",
+    "Debt stabilizes returns and reduces impact of market crashes.",
+    "Gold protects against macroeconomic shocks and inflation.",
+    "Ideal blend for long-term investors needing growth with controlled risk."
+  ]
+}

@@ -1,0 +1,71 @@
+Equity Funds:
+Equity funds invest primarily in listed company shares and equity-related securities. They offer high growth potential over the long term but come with higher volatility. Suitable for long-term investors with a horizon of 5+ years. SEBI mandates that equity funds hold at least 65% in equities.
+
+Subcategories include:
+1) Large Cap Funds – Invest in top 100 companies by market capitalization. Lower volatility among equity funds.
+2) Mid Cap Funds – Invest in companies ranked 101–250. Higher growth potential, higher volatility.
+3) Small Cap Funds – Invest in companies ranked 251 and below. High risk, high reward.
+4) Multi Cap Funds – Mandatory minimum 25% each in large/mid/small caps.
+5) Flexi Cap Funds – Flexible allocation across market caps.
+6) ELSS (Tax Saving Funds) – Equity funds with 3-year lock-in, eligible for 80C tax deduction.
+7) Sectoral/Thematic Funds – Invest in specific sectors (IT, Pharma, Banking). Higher risk due to concentration.
+8) Value Funds – Follow value-investing philosophy; cheaper valuation stocks.
+9) Contra Funds – Follow contrarian investing strategy.
+10) Focused Funds – Max 30 stocks in portfolio.
+11) Dividend Yield Funds – Invest in companies paying high dividends.
+
+Debt Funds:
+Debt funds invest in fixed-income securities like government securities, corporate bonds, commercial papers, treasury bills, and money market instruments. They provide stability, lower risk, and predictable returns. SEBI governs maturity categories.
+
+Subcategories include:
+1) Liquid Funds – Invest in securities with maturity up to 91 days. Very low risk.
+2) Overnight Funds – Invest in one-day maturity securities. Safest among all.
+3) Ultra Short Duration Funds – Maturity 3–6 months.
+4) Low Duration Funds – Maturity 6–12 months.
+5) Money Market Funds – Invest only in money market instruments.
+6) Short Duration Funds – Maturity 1–3 years.
+7) Medium Duration Funds – Maturity 3–4 years.
+8) Long Duration Funds – Maturity above 7 years.
+9) Dynamic Bond Funds – Duration changes dynamically.
+10) Gilt Funds – Minimum 80% investment in government securities.
+11) Corporate Bond Funds – Minimum 80% in AAA-rated corporate bonds.
+12) Credit Risk Funds – Minimum 65% in AA-rated or lower papers (higher yield, higher risk).
+13) Banking & PSU Funds – Minimum 80% in banking/PSU bonds.
+14) Floater Funds – Minimum 65% in floating-rate instruments.
+15) Gilt 10-Year Constant Maturity Funds – Invest in 10-year G-sec benchmark.
+
+Hybrid Funds:
+Hybrid funds invest in a combination of equity, debt, and sometimes gold. Suitable for investors wanting balanced risk across assets.
+
+Subcategories include:
+1) Conservative Hybrid Funds – 75%–90% debt, 10%–25% equity.
+2) Balanced Hybrid Funds – 40%–60% equity and debt each (not allowed to invest in arbitrage).
+3) Aggressive Hybrid Funds – 65%–80% equity, rest debt.
+4) Dynamic Asset Allocation/Balanced Advantage Funds – Equity–debt mix changes based on market valuation models.
+5) Multi Asset Funds – Mandatory minimum 10% each in 3 different asset classes (equity, debt, gold, commodity).
+6) Arbitrage Funds – Minimum 65% equity through arbitrage positions; low risk.
+7) Equity Savings Funds – Use a mix of equity, arbitrage, and debt to reduce volatility.
+
+Index & ETF Funds:
+These track specific market indices, providing low-cost passive returns.
+
+Subcategories:
+1) Index Funds – Replicate NIFTY50, Sensex, NIFTY Next 50, etc.
+2) Equity ETFs – Trade on exchanges like equities.
+3) Bond ETFs – Invest in government or corporate bonds.
+4) Gold ETFs – Track domestic gold price.
+5) International ETFs – Track global indices.
+
+Solution-Oriented Funds:
+These are goal-based investment funds with long lock-ins.
+
+Types:
+1) Retirement Fund – 5-year lock-in or until retirement.
+2) Children’s Fund – 5-year lock-in or until child turns 18.
+
+FoF (Fund of Funds):
+Invests in other mutual funds or global funds.
+Examples:
+– International FoF  
+– Commodity FoF  
+– Multi-Manager FoF  

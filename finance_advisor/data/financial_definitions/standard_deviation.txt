@@ -1,0 +1,10 @@
+Standard deviation measures how much investment returns deviate from their average.
+It is a primary metric used to quantify volatility and risk.
+A high standard deviation indicates larger swings in returns and greater uncertainty.
+Low standard deviation signals stability, making assets suitable for risk-averse investors.
+This metric is widely used for evaluating equity, debt, and multi-asset funds.
+Standard deviation helps differentiate between stable and aggressive fund categories.
+It is essential for portfolio optimization and risk management.
+Investors should compare standard deviation within the same category for accuracy.
+Sharp spikes in standard deviation reflect increased market uncertainty.
+Understanding standard deviation helps set expectations for portfolio behavior.

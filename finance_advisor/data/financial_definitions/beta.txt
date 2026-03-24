@@ -1,0 +1,10 @@
+Beta measures how sensitive a fund or stock is to overall market movements.
+A beta of 1 means the investment moves in line with the market.
+A beta above 1 indicates higher volatility and amplified movement relative to the market.
+A beta below 1 suggests more stability and lower sensitivity to market trends.
+High-beta stocks suit aggressive investors seeking higher growth potential.
+Low-beta stocks suit conservative investors preferring stable returns.
+Beta helps estimate systematic risk, which cannot be diversified away.
+For mutual funds, beta helps compare volatility with the benchmark index.
+Investors should review beta along with standard deviation and Sharpe Ratio for risk evaluation.
+Understanding beta is crucial for building portfolios aligned with risk tolerance.

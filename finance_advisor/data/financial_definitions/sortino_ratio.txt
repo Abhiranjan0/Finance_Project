@@ -1,0 +1,10 @@
+The Sortino Ratio measures risk-adjusted return while considering only downside volatility.
+It differentiates between harmful volatility and normal price fluctuations.
+A higher Sortino Ratio indicates better protection against downside risk.
+It is calculated using negative deviation instead of full standard deviation.
+Sortino is more suitable than Sharpe for investors who prioritize capital protection.
+Funds with high Sortino ratios tend to perform consistently in volatile markets.
+Sortino helps identify portfolios that limit losses during downturns.
+Investors use it along with maximum drawdown to assess defensive strength.
+It is especially relevant for retirement and low-risk investment strategies.
+Sortino Ratio provides a more realistic measure of real-world risk.

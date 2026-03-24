@@ -1,0 +1,10 @@
+CAGR stands for Compound Annual Growth Rate, representing the smoothed annual return of an investment.
+It describes how an investment would grow if it increased at a steady rate every year.
+CAGR removes the effect of short-term volatility and uneven year-to-year returns.
+Investors use it to compare the long-term performance of funds, portfolios, or asset classes.
+It is calculated using beginning value, ending value, and the total number of years.
+A higher CAGR indicates better long-term compounding and growth potential.
+CAGR is ideal for evaluating equity funds, retirement portfolios, and business growth metrics.
+However, CAGR does not reflect the risk or volatility experienced during the period.
+It should be used along with risk indicators such as Sharpe Ratio or standard deviation.
+CAGR is a key metric in financial planning, forecasting, and investment comparison.

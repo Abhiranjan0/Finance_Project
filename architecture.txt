@@ -1,0 +1,73 @@
++--------------------------------------------------------------+
+|                          User (Investor)                     |
++-----------------------------------+--------------------------+
+                                    |
+                                    v
++--------------------------------------------------------------+
+|                     Streamlit Frontend UI                    |
+|--------------------------------------------------------------|
+| - Chat interface                                              |
+| - Risk profile questionnaire                                  |
+| - Goals & financial info forms                                |
+| - Portfolio & simulation charts                               |
+| - PDF download button                                         |
++-------------------------------------+------------------------+
+                                    |
+                   HTTPS/JSON (REST via FastAPI)
+                                    v
++--------------------------------------------------------------+
+|                        FastAPI Backend                       |
+|--------------------------------------------------------------|
+| Endpoints:                                                   |
+|   /chat                                                      |
+|   /risk_profile                                              |
+|   /simulate_portfolio                                        |
+|   /rag                                                       |
+|   /get_nav                                                   |
+|   /convert_currency                                          |
+|                                                              |
+| - Orchestration layer                                         |
+| - Session/context manager                                     |
+| - Calls AI Orchestrator                                       |
+| - Calls Python tools                                          |
+| - Validation, logging, error handling                         |
++------------------------------+-------------------------------+
+                               |
+             +-----------------+------------------+
+             |                                    |
+             v                                    v
++-------------------------------+       +----------------------------------+
+|        AI Orchestrator        |       |         Tools & Services        |
+| (Azure GPT + LangChain Agent) |       |---------------------------------|
+|-------------------------------|       | - Risk Profiling Tool           |
+| - Azure GPT (chat/completion) |       | - Portfolio Construction Tool   |
+| - Azure Embedding model       |       | - Monte Carlo Simulation Tool   |
+| - Tool calling via LangChain  |       | - Market Data Lookup Tool       |
+| - Memory injection            |       | - Currency Conversion Tool      |
+| - RAG integration             |       | - Investment Dictionary Tool    |
+| - Optional routing/agents     |       | - Tax-saving Tool (optional)    |
++----------------+--------------+       +------------------+--------------+
+                 |                                                 |
+                 v                                                 v
++-------------------------------+       +----------------------------------+
+|            RAG Module         |       |      External Market APIs        |
+|-------------------------------|       |----------------------------------|
+| - Embedding via Azure         |       | - AlphaVantage                   |
+| - Vector store: FAISS/Chroma  |       | - Finnhub                       |
+|   or Azure CosmosDB Vector    |       | - Quandl                         |
+| - SEBI rules, MF categories   |       | - exchangerate.host              |
+| - Tax rules, examples         |       +----------------------------------+
++------------------+------------+
+                 |
+                 v
++--------------------------------------------------------------+
+|                     Data & Storage Layer                     |
+|--------------------------------------------------------------|
+| - Vector DB (FAISS/Chroma/CosmosDB)                          |
+| - Redis or DB for:                                            |
+|     * Entity Memory                                           |
+|     * Summary Memory                                          |
+|     * Conversation state                                      |
+| - Cache layer for NAV, FX, RAG responses, simulations         |
+| - Session logs + audit                                        |
++--------------------------------------------------------------+

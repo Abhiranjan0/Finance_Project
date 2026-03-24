@@ -1,0 +1,10 @@
+Drawdown measures the decline from a peak value of an investment to its lowest point before recovery.
+It represents potential downside risk and shows how much an investor could lose in worst periods.
+A large drawdown indicates high vulnerability during market crashes or corrections.
+Drawdown is crucial for retirement planning, risk profiling, and capital protection.
+Investors should evaluate both magnitude and duration of drawdowns.
+Funds with smaller and shorter drawdowns are more resilient during turbulent markets.
+Portfolio diversification can reduce drawdowns by balancing asset movements.
+Drawdown analysis is central to risk management and financial stress testing.
+Monte Carlo simulations often incorporate drawdown probabilities and depth.
+Understanding drawdown helps set realistic expectations during market downturns.

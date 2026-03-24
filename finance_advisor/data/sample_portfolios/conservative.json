@@ -1,0 +1,94 @@
+{
+  "profile": "Conservative",
+  "description": "A stability-focused portfolio designed for capital protection, low volatility, and steady income. Suited for risk-averse investors.",
+
+  "suitable_for": [
+    "Investors with short-term goals (1–4 years)",
+    "Retirees or individuals who need predictable returns",
+    "Investors with low risk tolerance",
+    "People building emergency or buffer funds"
+  ],
+
+  "goals_supported": [
+    "Emergency fund",
+    "Short-term savings",
+    "Capital protection",
+    "Down payment within 3 years"
+  ],
+
+  "time_horizon_years": "1 to 4 years",
+  "risk_level": "Low",
+  "volatility_expectation": "Low",
+  "max_expected_drawdown": "5% to 8%",
+  "expected_return_range": "5% to 8% annually",
+
+  "allocation": {
+    "equity": 20,
+    "debt": 60,
+    "gold": 10,
+    "hybrid": 5,
+    "cash_liquid": 5
+  },
+
+  "equity_breakdown": {
+    "large_cap": 12,
+    "value_equity": 5,
+    "mid_cap": 2,
+    "small_cap": 1
+  },
+
+  "debt_breakdown": {
+    "liquid_funds": 20,
+    "ultra_short_term": 10,
+    "short_duration": 10,
+    "corporate_bond": 10,
+    "gilt_10yr": 10
+  },
+
+  "gold_breakdown": {
+    "gold_etf": 7,
+    "sovereign_gold_bonds": 3
+  },
+
+  "hybrid_breakdown": {
+    "conservative_hybrid": 5
+  },
+
+  "recommended_sip_range": "₹3,000 – ₹25,000 per month",
+  "recommended_lumpsum_use": "Ideal for lump-sum deployment due to low equity exposure",
+
+  "fund_examples_generic": {
+    "equity": [
+      "Large-cap equity index fund",
+      "Value-oriented diversified equity fund"
+    ],
+    "debt": [
+      "Corporate bond fund",
+      "Short-duration fund",
+      "Liquid fund"
+    ],
+    "gold": [
+      "Gold ETF",
+      "Sovereign Gold Bond"
+    ],
+    "hybrid": [
+      "Conservative hybrid fund"
+    ]
+  },
+
+  "historical_behaviour": [
+    "Lowest volatility during market crashes.",
+    "Debt component provides stable interest income.",
+    "Equity component grows slowly but steadily.",
+    "Gold enhances risk protection during inflation cycles."
+  ],
+
+  "rebalancing_strategy": "Rebalance every 6 months to maintain debt dominance and prevent equity from rising above 25%.",
+
+  "rationale": [
+    "High debt allocation ensures capital safety and predictable returns.",
+    "Low equity ensures limited exposure to market fluctuations.",
+    "Gold provides inflation protection and safe-haven diversification.",
+    "Small hybrid exposure smooths returns with controlled risk."
+  ]
+}

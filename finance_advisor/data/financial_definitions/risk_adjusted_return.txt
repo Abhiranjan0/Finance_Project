@@ -1,0 +1,10 @@
+Risk-adjusted return measures how much return an investment generates after accounting for risk.
+It helps compare investments that may have similar returns but different risk levels.
+Common metrics include Sharpe Ratio, Sortino Ratio, and Treynor Ratio.
+A higher risk-adjusted return indicates more efficient performance.
+It penalizes volatility, especially downside volatility in some models.
+This measure is central to evaluating mutual funds and portfolio strategies.
+Investors use it to determine whether higher returns justify higher risk.
+Risk-adjusted metrics help identify consistent long-term performers.
+They are essential for building optimized and efficient portfolios.
+Risk-adjusted return ensures decisions prioritize stability along with growth.

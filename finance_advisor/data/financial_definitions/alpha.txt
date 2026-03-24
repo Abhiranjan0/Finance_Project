@@ -1,0 +1,11 @@
+Alpha measures the excess return of an investment relative to its benchmark index.
+A positive alpha indicates outperformance, while a negative alpha shows underperformance.
+Fund managers with high alpha are considered skilled at selecting winning investments.
+Alpha reflects not only returns but also the level of risk taken.
+In mutual funds, alpha helps assess whether active management added value.
+However, alpha can vary across market conditions and time periods.
+Investors should analyze long-term alpha trends rather than short-term spikes.
+Alpha should be compared within the same fund category for meaningful insights.
+It is often used alongside beta, Sharpe Ratio, and standard deviation.
+Alpha is a core metric in evaluating fund manager performance.
+

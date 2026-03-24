@@ -1,0 +1,10 @@
+The Sharpe Ratio measures how much excess return an investment generates per unit of risk.
+It is calculated as (Portfolio Return − Risk-free Rate) divided by the portfolio’s volatility.
+A higher Sharpe Ratio indicates better risk-adjusted performance.
+It helps investors compare investments with different volatility levels.
+Sharpe Ratio is widely used in portfolio optimization and fund comparison.
+It penalizes portfolios with higher volatility, even if returns are high.
+Sharpe works best when return distributions are roughly normal and stable.
+Limitations include sensitivity to historical data and return assumptions.
+Investors should not rely solely on Sharpe; use alongside Sortino and maximum drawdown.
+Sharpe Ratio remains a foundational measure for risk-aware investing.

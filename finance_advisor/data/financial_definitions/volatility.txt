@@ -1,0 +1,10 @@
+Volatility measures how much the price of an asset fluctuates within a given time.
+High volatility indicates frequent and large price swings, reflecting higher market risk.
+It is often expressed as the standard deviation of an asset’s returns.
+Volatile assets can offer higher returns but also expose investors to greater downside risk.
+Equities, small-cap stocks, and emerging markets typically show higher volatility.
+Debt instruments, government bonds, and large-cap stocks show lower volatility.
+Volatility helps investors judge the stability and predictability of investment returns.
+During uncertain market conditions, volatility tends to spike across asset classes.
+Investors with low risk tolerance should choose low-volatility instruments for stability.
+Volatility is essential for designing portfolios and running simulations like Monte Carlo.

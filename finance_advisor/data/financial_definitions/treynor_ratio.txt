@@ -1,0 +1,10 @@
+Treynor Ratio evaluates risk-adjusted return using beta as the measure of risk.
+It compares portfolio performance relative to systematic market risk.
+A higher Treynor Ratio indicates better compensation for market-related risk.
+It works best when comparing diversified portfolios where unsystematic risk is minimized.
+Treynor Ratio is ideal for evaluating actively managed funds.
+It differentiates managers who generate high returns through market exposure versus skill.
+Beta-based risk measurement helps align portfolio evaluation with market dynamics.
+Treynor should be used alongside Sharpe and alpha for a complete assessment.
+It is widely used in performance attribution studies.
+Treynor Ratio is valuable for portfolios aligned strongly to equity markets.

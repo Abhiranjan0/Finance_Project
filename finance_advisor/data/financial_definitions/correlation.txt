@@ -1,0 +1,10 @@
+Correlation measures how two assets move relative to each other over time.
+A correlation of +1 means they move identically, while −1 means they move in opposite directions.
+Low or negative correlation improves diversification and reduces portfolio volatility.
+Equity, debt, gold, and real estate often show different correlation patterns.
+Correlation helps in designing multi-asset portfolios and optimizing risk exposure.
+During market crises, correlations may temporarily increase across asset classes.
+Investors use correlation to avoid concentrated risk in similar instruments.
+Portfolio construction relies heavily on correlation matrices.
+Monte Carlo simulations often incorporate correlation to model realistic outcomes.
+Understanding correlation is key to building resilient investment strategies.

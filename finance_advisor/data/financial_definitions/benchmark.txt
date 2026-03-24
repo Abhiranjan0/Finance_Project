@@ -1,0 +1,10 @@
+A benchmark is a standard index used to evaluate the performance of a fund or portfolio.
+Common benchmarks include NIFTY 50, SENSEX, NIFTY Midcap 150, and sectoral indices.
+Benchmarks represent market performance for specific segments or asset classes.
+A fund’s returns are compared against its benchmark to determine outperformance or underperformance.
+Tracking error indicates how closely a fund follows its benchmark.
+Passive index funds aim to replicate benchmark performance with minimal deviation.
+Active funds strive to outperform the benchmark through stock selection.
+Benchmark selection must match the fund’s investment objective and category.
+Investors use benchmarks to assess fund manager skill and portfolio efficiency.
+Understanding benchmarks is essential for evaluating investment performance.
