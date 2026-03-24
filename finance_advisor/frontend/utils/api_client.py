@@ -109,3 +109,6 @@ class APIClient:
 
     def register(self, email, password):
         return self._post("/auth/register", {"email": email, "password": password})
+
+    def logout(self):
+        return self._post("/auth/logout", {})

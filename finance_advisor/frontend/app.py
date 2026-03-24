@@ -42,7 +42,7 @@ except:
     pass
 
 from utils.api_client import APIClient
-from utils.session_handler import init_session
+from utils.session_handler import init_session, logout_session, is_authenticated
 from components.chat_box import chat_interface
 from components.risk_form import risk_profile_form
 from components.portfolio_charts import show_portfolio_chart
@@ -179,35 +179,80 @@ elif page == "Download Report":
         st.warning("Generate your portfolio & simulation first.")
 
 elif page == "Login/Register":
-    st.markdown("<h2>Login / Register</h2>", unsafe_allow_html=True)
-
-    tab1, tab2 = st.tabs(["Login", "Register"])
-
-    with tab1:
-        st.subheader("Login")
-        login_email = st.text_input("Email", key="login_email")
-        login_password = st.text_input("Password", type="password", key="login_pass")
-
-        if st.button("Login"):
-            result = api.login(login_email, login_password)
-            if result:
-                st.session_state["user_id"] = result["user_id"]
-                st.session_state["user_email"] = login_email  
-                st.success("Login successful!")
-                st.session_state["pending_redirect"] = "Chat Advisor"
+    # Check if user is already logged in
+    if "user_id" in st.session_state and st.session_state["user_id"]:
+        # User is logged in - show logged in screen
+        st.markdown("<h2>Account</h2>", unsafe_allow_html=True)
+        
+        st.markdown("""
+            <div style="
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                padding: 30px;
+                border-radius: 15px;
+                text-align: center;
+                color: white;
+                margin: 20px 0;
+            ">
+                <h1 style="margin: 0; color: white;">✅ Logged In</h1>
+                <p style="margin: 15px 0 0 0; font-size: 16px;">Welcome back!</p>
+            </div>
+        """, unsafe_allow_html=True)
+        
+        user_email = st.session_state.get("user_email", "User")
+        
+        st.markdown("""
+            <div style="
+                background: #f0f2f6;
+                padding: 25px;
+                border-radius: 10px;
+                margin: 20px 0;
+                border-left: 5px solid #667eea;
+            ">
+                <p style="margin: 0; color: #666; font-size: 14px;">LOGGED IN AS</p>
+                <h3 style="margin: 10px 0 0 0; color: #333;">📧 {}</h3>
+            </div>
+        """.format(user_email), unsafe_allow_html=True)
+        
+        st.markdown("")
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            if st.button("🚪 Logout", use_container_width=True, key="login_page_logout"):
+                api.logout()
+                logout_session()
+                st.success("Logged out successfully!")
                 st.rerun()
+        
+    else:
+        # User is not logged in - show login/register forms
+        st.markdown("<h2>Login / Register</h2>", unsafe_allow_html=True)
+
+        tab1, tab2 = st.tabs(["Login", "Register"])
+
+        with tab1:
+            st.subheader("Login")
+            login_email = st.text_input("Email", key="login_email")
+            login_password = st.text_input("Password", type="password", key="login_pass")
+
+            if st.button("Login"):
+                result = api.login(login_email, login_password)
+                if result:
+                    st.session_state["user_id"] = result["user_id"]
+                    st.session_state["user_email"] = login_email  
+                    st.success("Login successful!")
+                    st.session_state["pending_redirect"] = "Chat Advisor"
+                    st.rerun()
 
 
-    with tab2:
-        st.subheader("Register")
-        reg_email = st.text_input("New Email", key="reg_email")
-        reg_password = st.text_input("New Password", type="password", key="reg_pass")
+        with tab2:
+            st.subheader("Register")
+            reg_email = st.text_input("New Email", key="reg_email")
+            reg_password = st.text_input("New Password", type="password", key="reg_pass")
 
-        if st.button("Register"):
-            result = api.register(reg_email, reg_password)
-            if result:
-                st.success("Registration successful!")
-                st.session_state["user_id"] = result.get("user_id", reg_email) 
-                st.session_state["user_email"] = reg_email 
-                st.session_state["pending_redirect"] = "Chat Advisor"
-                st.rerun()
+            if st.button("Register"):
+                result = api.register(reg_email, reg_password)
+                if result:
+                    st.success("Registration successful!")
+                    st.session_state["user_id"] = result.get("user_id", reg_email) 
+                    st.session_state["user_email"] = reg_email 
+                    st.session_state["pending_redirect"] = "Chat Advisor"
+                    st.rerun()

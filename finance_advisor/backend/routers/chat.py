@@ -11,7 +11,7 @@ from finance_advisor.backend.models.chat import ChatRequest, ChatResponse
 
 # Our custom MCP-like tool server
 from finance_advisor.backend.mcp.server import get_mcp_schema, call_mcp_tool
-from finance_advisor.backend.guardrails.input_guard import check_user_input
+from finance_advisor.backend.guardrails.input_guard import check_user_input, is_finance_related
 from finance_advisor.backend.guardrails.output_guard import sanitize_output, append_disclaimer
 
 from finance_advisor.backend.db.conversation_store import save_message
@@ -45,6 +45,17 @@ def chat_endpoint(payload: ChatRequest):
         allowed, guard_msg = check_user_input(payload.message)
         if not allowed:
             return ChatResponse(reply=guard_msg)
+        
+        # Check if message is finance-related
+        if not is_finance_related(payload.message):
+            finance_only_msg = (
+                "I'm a specialized financial advisor and can only help with finance-related queries. "
+                "Please ask me about investments, portfolio planning, mutual funds, insurance, retirement planning, or any other financial topics. "
+                "For example: 'Guide me in investing 250000' or 'What is SIP?'"
+            )
+            save_message(payload.session_id, "user", payload.message)
+            save_message(payload.session_id, "assistant", finance_only_msg)
+            return ChatResponse(reply=finance_only_msg)
         
         # Save the user message into SQLite
         save_message(session_id, "user", payload.message)
