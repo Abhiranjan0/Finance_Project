@@ -51,3 +51,12 @@ def login(payload: AuthRequest):
     user_id = user.user_id
     db.close()
     return {"user_id": user_id}
+
+
+@router.post("/logout")
+def logout():
+    """
+    Logout endpoint - confirms logout operation.
+    Frontend will handle session_state cleanup.
+    """
+    return {"message": "Logout successful"}
