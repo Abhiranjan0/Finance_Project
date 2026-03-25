@@ -87,6 +87,25 @@ class APIClient:
         return self._get(f"/simulate?session_id={session_id}")
 
     # ------------------------------------------------------------
+    # Full simulation route with variable inputs
+    # ------------------------------------------------------------
+    def simulate_portfolio(self, session_id: str, allocation: Dict[str, float], investment_type: str,
+                            monthly_amount: float, lumpsum_amount: float, duration_years: int,
+                            num_simulations: int = 5000) -> Optional[Dict]:
+        payload = {
+            "session_id": session_id,
+            "allocation": allocation,
+            "investment": {
+                "type": investment_type,
+                "monthly_amount": monthly_amount if investment_type == "sip" else None,
+                "lumpsum_amount": lumpsum_amount if investment_type in ["lumpsum", "stocks", "portfolio"] else None,
+                "duration_years": duration_years,
+            },
+            "simulation_params": {"num_simulations": num_simulations},
+        }
+        return self._post("/simulate_portfolio", payload)
+
+    # ------------------------------------------------------------
     # Download Report
     # ------------------------------------------------------------
     def download_report(self, session_id: str) -> Optional[bytes]:
