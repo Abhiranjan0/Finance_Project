@@ -155,9 +155,53 @@ elif page == "Simulation":
     st.markdown("<h2 class='apple-section-heading'>Monte Carlo Simulation</h2>", unsafe_allow_html=True)
     st.markdown("<p class='apple-section-subtitle'>Projected outcomes based on randomized return paths.</p>", unsafe_allow_html=True)
 
-    output = api.run_simulation(session_id)
-    if output:
-        show_simulation_results(output)
+    # Fetch portfolio first so we can use its latest allocation
+    portfolio_data = api.fetch_portfolio(session_id)
+    if portfolio_data:
+        allocation = portfolio_data.get("allocation")
+        risk_desc = portfolio_data.get("explanation")
+        st.markdown("### Recommended Allocation")
+        st.write(allocation)
+        st.markdown(f"**Portfolio notes:** {risk_desc}")
+    else:
+        st.warning("Could not load portfolio. Please complete risk profiling first.")
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.stop()
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+    st.subheader("Simulation Inputs")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        investment_type = st.selectbox("Investment Type", ["sip", "lumpsum"], index=0)
+        duration_years = st.number_input("Duration (years)", min_value=1, max_value=40, value=10)
+        num_sims = st.number_input("Number of simulations", min_value=100, max_value=20000, value=5000, step=100)
+
+    with col2:
+        if investment_type == "sip":
+            monthly_amount = st.number_input("Monthly SIP amount", min_value=1000.0, step=500.0, value=10000.0)
+            lumpsum_amount = 0.0
+        else:
+            monthly_amount = 0.0
+            lumpsum_amount = st.number_input("Lumpsum amount", min_value=10000.0, step=1000.0, value=100000.0)
+
+    if st.button("Run Simulation"):
+        with st.spinner("Running Monte Carlo simulation..."):
+            output = api.simulate_portfolio(
+                session_id=session_id,
+                allocation=allocation,
+                investment_type=investment_type,
+                monthly_amount=monthly_amount,
+                lumpsum_amount=lumpsum_amount,
+                duration_years=duration_years,
+                num_simulations=num_sims,
+            )
+
+        if output:
+            show_simulation_results(output)
+        else:
+            st.error("Simulation failed. Please try again with different inputs.")
 
     st.markdown('</div>', unsafe_allow_html=True)
 

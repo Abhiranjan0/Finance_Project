@@ -92,6 +92,13 @@ def run_monte_carlo_simulation(
                 portfolio_value = (portfolio_value * monthly_factor) + monthly
 
         # Lumpsum Mode
+        elif payload.investment.type == "lumpsum":
+            portfolio_value = payload.investment.lumpsum_amount or 0.0
+            for _ in range(years):
+                yearly_return = random.gauss(mu, sigma)
+                portfolio_value *= (1 + yearly_return)
+
+        # Fallback safety to lumpsum if anything else (should not happen)
         else:
             portfolio_value = payload.investment.lumpsum_amount or 0.0
             for _ in range(years):
